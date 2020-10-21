@@ -41,3 +41,4 @@ for txt in range(0,len(text),2):
 	for x in range(8):#Se realiza el xor bit por bit de los bytes actuales
 		auxXOR += str(int(auxT[x])^int(auxK[x]))
 print(hex(int(auxXOR,2))[2:].upper())#Transforma el resultado del xor a hexadecimal
+
